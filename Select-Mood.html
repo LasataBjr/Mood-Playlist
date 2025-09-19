@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Select Mood 🎭</title>
+        <link rel="icon" type="image/png" href="Assets/Images/Mood-playlist-icon.jpg">
+        <link rel="stylesheet" href="Assets/CSS/Select-Mood.css">
+    </head>
+    <body>        
+        <h1 id="title">Choose Your Mood 🎵</h1>
+        <div class="moodOption">        
+           <ul id="moodList">
+              <li><button onclick="selectMood('happy')">Happy 😊</button></li>
+              <li><button onclick="selectMood('sad')">Sad 😢</button></li>
+              <li><button onclick="selectMood('chill')">Chill 😎</button></li>
+              <li><button onclick="selectMood('energetic')">Energetic ⚡</button></li>
+              <li><button onclick="selectMood('romantic')">Romantic 💖</button></li>
+           </ul>  
+        </div>
+
+        <script>
+            function selectMood(mood){
+                //Redirect to mood playlist with the selected mood
+                window.location.href = "Mood-Playlist.html?mood=" + mood;
+            }
+        </script>
+    </body>
+</html>
