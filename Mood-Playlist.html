@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mood Playlist 🎵</title>
         <link rel="icon" type="image/png" href="Assets/Images/Mood-playlist-icon.jpg">
+        <link rel="stylesheet" href="Assets/CSS/Playlist.css">
     </head>
     <body>
         <div class="player">
@@ -18,7 +19,19 @@
                 <p id="singerName">Singer Name</p>
             </div>
             <!-- Progress Bar -->
-             
+            <div class="progress">
+                <input type="range" id="progressBar" value="0" max="100"/>
+            </div>
+            <!-- Controls -->
+             <div class="controls">
+                <button id="prev">⏮</button>
+                <button id="playPause">▶</button>
+                <button id="next">⏭</button>
+             </div>
+            <!-- Decorative wave -->
+             <div class="wave">
+                █ ▇ ▆ ▅ ▃ ▂ ▁ ▂ ▃ ▅ ▆ ▇ █
+             </div>
         </div>
     </body>
 </html>
