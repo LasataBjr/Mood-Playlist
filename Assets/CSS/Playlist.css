@@ -11,10 +11,30 @@ body{
     min-height: 100vh;
     background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad390);
 }
+/* Main Player Box */
 .player{
-    border: 2px solid black;
+    border: 3px solid black;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
     padding: 20px;
     width: 80vh;
     height: 80vh;
-    display: ;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.cover{
+    border: 3px solid black;
+    width: 80%;
+    height: 300px;    
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 25px;
+}
+.cover img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
