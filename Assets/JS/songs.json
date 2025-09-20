@@ -1,0 +1,127 @@
+{
+  "happy": {
+    "cover": "happy.gif",
+    "songs": [
+      {
+        "Songtitle": "Happy",
+        "Singer": "Pharrell Williams",
+        "File": ""
+      },
+      {
+        "Songtitle": "Shake It Off",
+        "Singer": "Taylor Swift",
+        "File": ""
+      },
+      {
+        "Songtitle": "Uptown Funk",
+        "Singer": "Mark Ronson ft. Bruno Mars",
+        "File": ""
+      },
+      {
+        "Songtitle": "24K Magic",
+        "Singer": "Bruno Mars",
+        "File": ""
+      }
+    ]
+  },
+  "sad": {
+    "cover": "sad.gif",
+    "songs": [
+      {
+        "Songtitle": "Happier Than Ever",
+        "Singer": "Billie Eilish",
+        "File": ""
+      },
+      {
+        "Songtitle": "Older",
+        "Singer": "Sasha Alex Sloan",
+        "File": ""
+      },
+      {
+        "Songtitle": "Dream",
+        "Singer": "LISA",
+        "File": ""
+      },
+      {
+        "Songtitle": "Another Love",
+        "Singer": "Tom Odell",
+        "File": ""
+      }
+    ]
+  },
+  "chill": {
+    "cover": "chill.gif",
+    "songs": [
+      {
+        "Songtitle": "Feelings",
+        "Singer": "LAUV",
+        "File": ""
+      },
+      {
+        "Songtitle": "On My Mind",
+        "Singer": "Maximillian",
+        "File": ""
+      },
+      {
+        "Songtitle": "ILYSB",
+        "Singer": "LANY",
+        "File": ""
+      },
+      {
+        "Songtitle": "Less of You",
+        "Singer": "Keshi",
+        "File": ""
+      }
+    ]
+  },
+  "energetic": {
+    "cover": "energetic.gif",
+    "songs": [
+      {
+        "Songtitle": "Blinding Lights",
+        "Singer": "The Weeknd",
+        "File": ""
+      },
+      {
+        "Songtitle": "Don't Stop the Music",
+        "Singer": "Rihanna",
+        "File": ""
+      },
+      {
+        "Songtitle": "APT",
+        "Singer": "ROSÉ and Bruno Mars",
+        "File": ""
+      },
+      {
+        "Songtitle": "Rock That Body",
+        "Singer": "The Black Eyed Peas",
+        "File": ""
+      }
+    ]
+  },
+  "romantic": {
+    "cover": "romantic.gif",
+    "songs": [
+      {
+        "Songtitle": "All of Me",
+        "Singer": "John Legend",
+        "File": ""
+      },
+      {
+        "Songtitle": "Perfect",
+        "Singer": "Ed Sheeran",
+        "File": ""
+      },
+      {
+        "Songtitle": "Lover",
+        "Singer": "Taylor Swift",
+        "File": ""
+      },
+      {
+        "Songtitle": "A Thousand Years",
+        "Singer": "Christina Perri",
+        "File": ""
+      }
+    ]
+  }
+}
